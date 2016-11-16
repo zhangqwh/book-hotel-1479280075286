@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: book-hotel
+  host: book-hotel
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - ClearDB MySQL Database-th
+  - Monitoring and Analytics-0j
+  - Auto-Scaling-rp
